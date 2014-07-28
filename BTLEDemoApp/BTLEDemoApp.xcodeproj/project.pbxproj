@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC46DF951986275D001B6CB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC46DF941986275D001B6CB1 /* Foundation.framework */; };
+		BC46DF971986275D001B6CB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC46DF961986275D001B6CB1 /* CoreGraphics.framework */; };
+		BC46DF991986275D001B6CB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC46DF981986275D001B6CB1 /* UIKit.framework */; };
+		BC46DF9F1986275D001B6CB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC46DF9D1986275D001B6CB1 /* InfoPlist.strings */; };
+		BC46DFA11986275E001B6CB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC46DFA01986275E001B6CB1 /* main.m */; };
+		BC46DFA51986275E001B6CB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC46DFA41986275E001B6CB1 /* AppDelegate.m */; };
+		BC46DFA81986275E001B6CB1 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC46DFA61986275E001B6CB1 /* Main_iPhone.storyboard */; };
+		BC46DFAB1986275E001B6CB1 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC46DFA91986275E001B6CB1 /* Main_iPad.storyboard */; };
+		BC46DFAE1986275E001B6CB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC46DFAD1986275E001B6CB1 /* ViewController.m */; };
+		BC46DFB01986275E001B6CB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC46DFAF1986275E001B6CB1 /* Images.xcassets */; };
+		BC46DFB71986275F001B6CB1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC46DFB61986275F001B6CB1 /* XCTest.framework */; };
+		BC46DFB81986275F001B6CB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC46DF941986275D001B6CB1 /* Foundation.framework */; };
+		BC46DFB91986275F001B6CB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC46DF981986275D001B6CB1 /* UIKit.framework */; };
+		BC46DFC11986275F001B6CB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC46DFBF1986275F001B6CB1 /* InfoPlist.strings */; };
+		BC46DFC31986275F001B6CB1 /* BTLEDemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC46DFC21986275F001B6CB1 /* BTLEDemoAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC46DFBA1986275F001B6CB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC46DF891986275D001B6CB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC46DF901986275D001B6CB1;
+			remoteInfo = BTLEDemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC46DF911986275D001B6CB1 /* BTLEDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTLEDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC46DF941986275D001B6CB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC46DF961986275D001B6CB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC46DF981986275D001B6CB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC46DF9C1986275D001B6CB1 /* BTLEDemoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTLEDemoApp-Info.plist"; sourceTree = "<group>"; };
+		BC46DF9E1986275D001B6CB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC46DFA01986275E001B6CB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC46DFA21986275E001B6CB1 /* BTLEDemoApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTLEDemoApp-Prefix.pch"; sourceTree = "<group>"; };
+		BC46DFA31986275E001B6CB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC46DFA41986275E001B6CB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC46DFA71986275E001B6CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		BC46DFAA1986275E001B6CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		BC46DFAC1986275E001B6CB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC46DFAD1986275E001B6CB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC46DFAF1986275E001B6CB1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC46DFB51986275F001B6CB1 /* BTLEDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTLEDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC46DFB61986275F001B6CB1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BC46DFBE1986275F001B6CB1 /* BTLEDemoAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTLEDemoAppTests-Info.plist"; sourceTree = "<group>"; };
+		BC46DFC01986275F001B6CB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC46DFC21986275F001B6CB1 /* BTLEDemoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTLEDemoAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC46DF8E1986275D001B6CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC46DF971986275D001B6CB1 /* CoreGraphics.framework in Frameworks */,
+				BC46DF991986275D001B6CB1 /* UIKit.framework in Frameworks */,
+				BC46DF951986275D001B6CB1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC46DFB21986275F001B6CB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC46DFB71986275F001B6CB1 /* XCTest.framework in Frameworks */,
+				BC46DFB91986275F001B6CB1 /* UIKit.framework in Frameworks */,
+				BC46DFB81986275F001B6CB1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC46DF881986275D001B6CB1 = {
+			isa = PBXGroup;
+			children = (
+				BC46DF9A1986275D001B6CB1 /* BTLEDemoApp */,
+				BC46DFBC1986275F001B6CB1 /* BTLEDemoAppTests */,
+				BC46DF931986275D001B6CB1 /* Frameworks */,
+				BC46DF921986275D001B6CB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC46DF921986275D001B6CB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC46DF911986275D001B6CB1 /* BTLEDemoApp.app */,
+				BC46DFB51986275F001B6CB1 /* BTLEDemoAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC46DF931986275D001B6CB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC46DF941986275D001B6CB1 /* Foundation.framework */,
+				BC46DF961986275D001B6CB1 /* CoreGraphics.framework */,
+				BC46DF981986275D001B6CB1 /* UIKit.framework */,
+				BC46DFB61986275F001B6CB1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC46DF9A1986275D001B6CB1 /* BTLEDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				BC46DFA31986275E001B6CB1 /* AppDelegate.h */,
+				BC46DFA41986275E001B6CB1 /* AppDelegate.m */,
+				BC46DFA61986275E001B6CB1 /* Main_iPhone.storyboard */,
+				BC46DFA91986275E001B6CB1 /* Main_iPad.storyboard */,
+				BC46DFAC1986275E001B6CB1 /* ViewController.h */,
+				BC46DFAD1986275E001B6CB1 /* ViewController.m */,
+				BC46DFAF1986275E001B6CB1 /* Images.xcassets */,
+				BC46DF9B1986275D001B6CB1 /* Supporting Files */,
+			);
+			path = BTLEDemoApp;
+			sourceTree = "<group>";
+		};
+		BC46DF9B1986275D001B6CB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC46DF9C1986275D001B6CB1 /* BTLEDemoApp-Info.plist */,
+				BC46DF9D1986275D001B6CB1 /* InfoPlist.strings */,
+				BC46DFA01986275E001B6CB1 /* main.m */,
+				BC46DFA21986275E001B6CB1 /* BTLEDemoApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC46DFBC1986275F001B6CB1 /* BTLEDemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC46DFC21986275F001B6CB1 /* BTLEDemoAppTests.m */,
+				BC46DFBD1986275F001B6CB1 /* Supporting Files */,
+			);
+			path = BTLEDemoAppTests;
+			sourceTree = "<group>";
+		};
+		BC46DFBD1986275F001B6CB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC46DFBE1986275F001B6CB1 /* BTLEDemoAppTests-Info.plist */,
+				BC46DFBF1986275F001B6CB1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC46DF901986275D001B6CB1 /* BTLEDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC46DFC61986275F001B6CB1 /* Build configuration list for PBXNativeTarget "BTLEDemoApp" */;
+			buildPhases = (
+				BC46DF8D1986275D001B6CB1 /* Sources */,
+				BC46DF8E1986275D001B6CB1 /* Frameworks */,
+				BC46DF8F1986275D001B6CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTLEDemoApp;
+			productName = BTLEDemoApp;
+			productReference = BC46DF911986275D001B6CB1 /* BTLEDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC46DFB41986275F001B6CB1 /* BTLEDemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC46DFC91986275F001B6CB1 /* Build configuration list for PBXNativeTarget "BTLEDemoAppTests" */;
+			buildPhases = (
+				BC46DFB11986275F001B6CB1 /* Sources */,
+				BC46DFB21986275F001B6CB1 /* Frameworks */,
+				BC46DFB31986275F001B6CB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC46DFBB1986275F001B6CB1 /* PBXTargetDependency */,
+			);
+			name = BTLEDemoAppTests;
+			productName = BTLEDemoAppTests;
+			productReference = BC46DFB51986275F001B6CB1 /* BTLEDemoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC46DF891986275D001B6CB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "creative capsule";
+				TargetAttributes = {
+					BC46DFB41986275F001B6CB1 = {
+						TestTargetID = BC46DF901986275D001B6CB1;
+					};
+				};
+			};
+			buildConfigurationList = BC46DF8C1986275D001B6CB1 /* Build configuration list for PBXProject "BTLEDemoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC46DF881986275D001B6CB1;
+			productRefGroup = BC46DF921986275D001B6CB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC46DF901986275D001B6CB1 /* BTLEDemoApp */,
+				BC46DFB41986275F001B6CB1 /* BTLEDemoAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC46DF8F1986275D001B6CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC46DFAB1986275E001B6CB1 /* Main_iPad.storyboard in Resources */,
+				BC46DFB01986275E001B6CB1 /* Images.xcassets in Resources */,
+				BC46DFA81986275E001B6CB1 /* Main_iPhone.storyboard in Resources */,
+				BC46DF9F1986275D001B6CB1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC46DFB31986275F001B6CB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC46DFC11986275F001B6CB1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC46DF8D1986275D001B6CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC46DFAE1986275E001B6CB1 /* ViewController.m in Sources */,
+				BC46DFA51986275E001B6CB1 /* AppDelegate.m in Sources */,
+				BC46DFA11986275E001B6CB1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC46DFB11986275F001B6CB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC46DFC31986275F001B6CB1 /* BTLEDemoAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC46DFBB1986275F001B6CB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC46DF901986275D001B6CB1 /* BTLEDemoApp */;
+			targetProxy = BC46DFBA1986275F001B6CB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC46DF9D1986275D001B6CB1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC46DF9E1986275D001B6CB1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC46DFA61986275E001B6CB1 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC46DFA71986275E001B6CB1 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BC46DFA91986275E001B6CB1 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC46DFAA1986275E001B6CB1 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BC46DFBF1986275F001B6CB1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC46DFC01986275F001B6CB1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC46DFC41986275F001B6CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC46DFC51986275F001B6CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC46DFC71986275F001B6CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTLEDemoApp/BTLEDemoApp-Prefix.pch";
+				INFOPLIST_FILE = "BTLEDemoApp/BTLEDemoApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC46DFC81986275F001B6CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTLEDemoApp/BTLEDemoApp-Prefix.pch";
+				INFOPLIST_FILE = "BTLEDemoApp/BTLEDemoApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC46DFCA1986275F001B6CB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTLEDemoApp.app/BTLEDemoApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTLEDemoApp/BTLEDemoApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BTLEDemoAppTests/BTLEDemoAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BC46DFCB1986275F001B6CB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BTLEDemoApp.app/BTLEDemoApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTLEDemoApp/BTLEDemoApp-Prefix.pch";
+				INFOPLIST_FILE = "BTLEDemoAppTests/BTLEDemoAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC46DF8C1986275D001B6CB1 /* Build configuration list for PBXProject "BTLEDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC46DFC41986275F001B6CB1 /* Debug */,
+				BC46DFC51986275F001B6CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC46DFC61986275F001B6CB1 /* Build configuration list for PBXNativeTarget "BTLEDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC46DFC71986275F001B6CB1 /* Debug */,
+				BC46DFC81986275F001B6CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC46DFC91986275F001B6CB1 /* Build configuration list for PBXNativeTarget "BTLEDemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC46DFCA1986275F001B6CB1 /* Debug */,
+				BC46DFCB1986275F001B6CB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC46DF891986275D001B6CB1 /* Project object */;
+}
